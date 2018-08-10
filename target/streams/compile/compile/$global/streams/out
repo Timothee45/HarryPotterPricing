@@ -1,0 +1,101 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:24:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method int2long in object Int of type (x: Int)Long[0m
+[0m[[0m[31merror[0m] [0m[0m and method int2float in object Int of type (x: Int)Float[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Int to ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m        case 2 => finalPrice += (DEFAULT_BOOK_PRICE * 2 * 0.95)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:24:30: value += is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m     cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: finalPrice = finalPrice.<$plus: error>(DEFAULT_BOOK_PRICE.*(2).*(0.95))[0m
+[0m[[0m[31merror[0m] [0m[0m        case 2 => finalPrice += (DEFAULT_BOOK_PRICE * 2 * 0.95)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:25:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method int2long in object Int of type (x: Int)Long[0m
+[0m[[0m[31merror[0m] [0m[0m and method int2float in object Int of type (x: Int)Float[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Int to ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m        case 3 => finalPrice += (DEFAULT_BOOK_PRICE * 3 * 0.9)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:25:30: value += is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m     cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: finalPrice = finalPrice.<$plus: error>(DEFAULT_BOOK_PRICE.*(3).*(0.9))[0m
+[0m[[0m[31merror[0m] [0m[0m        case 3 => finalPrice += (DEFAULT_BOOK_PRICE * 3 * 0.9)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:26:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method int2long in object Int of type (x: Int)Long[0m
+[0m[[0m[31merror[0m] [0m[0m and method int2float in object Int of type (x: Int)Float[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Int to ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m        case 4 => finalPrice += (DEFAULT_BOOK_PRICE * 4 * 0.8)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:26:30: value += is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m     cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: finalPrice = finalPrice.<$plus: error>(DEFAULT_BOOK_PRICE.*(4).*(0.8))[0m
+[0m[[0m[31merror[0m] [0m[0m        case 4 => finalPrice += (DEFAULT_BOOK_PRICE * 4 * 0.8)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:27:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method int2long in object Int of type (x: Int)Long[0m
+[0m[[0m[31merror[0m] [0m[0m and method int2float in object Int of type (x: Int)Float[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Int to ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m        case 5 => finalPrice += (DEFAULT_BOOK_PRICE * 5 * 0.75)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:27:30: value += is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m     cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: finalPrice = finalPrice.<$plus: error>(DEFAULT_BOOK_PRICE.*(5).*(0.75))[0m
+[0m[[0m[31merror[0m] [0m[0m        case 5 => finalPrice += (DEFAULT_BOOK_PRICE * 5 * 0.75)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:28:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method int2long in object Int of type (x: Int)Long[0m
+[0m[[0m[31merror[0m] [0m[0m and method int2float in object Int of type (x: Int)Float[0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from Int to ?{def +(x$1: ? >: Double): ?}[0m
+[0m[[0m[31merror[0m] [0m[0m        case i:Int => finalPrice += (DEFAULT_BOOK_PRICE * i)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tmasurel/Documents/hp_scala/src/main/scala/pricing/Pricing.scala:28:34: value += is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m      (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m     cannot be applied to (Double)[0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: finalPrice = finalPrice.<$plus: error>(DEFAULT_BOOK_PRICE.*(i))[0m
+[0m[[0m[31merror[0m] [0m[0m        case i:Int => finalPrice += (DEFAULT_BOOK_PRICE * i)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m

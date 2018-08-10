@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPricingSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of one book[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of two books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 16[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of two books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 15.2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of three books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 21.6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of four books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 25.6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of four books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 30[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of four books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 38[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate the price of a list of four books[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 51.6[0m[0m
